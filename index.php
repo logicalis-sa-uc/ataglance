@@ -62,6 +62,9 @@
 
 <!-- <div class="footer"></div> -->
 <footer>
+<div class="col-sm-12" style="background-color: light-grey; height: 120px;">
+    <img src="images/ataglance-black.png">
+</div>
 <?php
 ob_flush();
 ?>
