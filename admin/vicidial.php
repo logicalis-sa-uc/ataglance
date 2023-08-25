@@ -160,9 +160,7 @@ $connsu->close();
     <br>
 
   <!-- Footer -->
-  <footer class="w3-container w3-padding-16 w3-red">
-    <p>Powered by <strong>LOGICALIS</strong></p>
-  </footer>
+  <?php include 'footer.php'; ?>
 
   <!-- End page content -->
 </div>

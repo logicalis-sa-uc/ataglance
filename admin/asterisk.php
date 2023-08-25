@@ -203,13 +203,11 @@ require_once "../configs/graph_interval.php";
     <br><br>
 
   <!-- Footer -->
-  <footer class="w3-container w3-padding-16 w3-red">
-    <p>Powered by <strong>LOGICALIS</strong></p>
-  </footer>
+
 
   <!-- End page content -->
 </div>
-
+<?php include 'footer.php'; ?>
 <script>
 // Concurrent Calls Graph
 var concurrentCallsChart = new Chart(document.getElementById("concurrentCallsChart"), {
