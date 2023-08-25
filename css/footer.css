@@ -1,0 +1,15 @@
+.footer {
+    background-color: black;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    transform: skewY(1.5deg);
+    transform-origin: bottom left;
+    filter: brightness(100%);
+}

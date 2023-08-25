@@ -1,0 +1,137 @@
+.col-sm-12 {
+    display: flex;
+    border-radius: 15px;
+    background-color: lightgrey;
+    font-size: 1.2em;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.col-sm-12 > .login-form{
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    /* border-bottom: 3px solid black;
+ *     border-right: 3px solid black;
+ *         border-left: 3px solid black;
+ *             border-top: 3px solid black; */
+    padding: 25px;
+    border-radius:10px;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 2.0);
+}
+
+.col-sm-12 > .login-form h2{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
+    /* border-bottom: 3px solid black;
+ *     border-right: 3px solid black;
+ *         border-left: 3px solid black;
+ *             border-top: 3px solid black;  */
+    padding: 5px;
+}
+
+.login-form label {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 2px;
+    border: none;
+    display: block;
+}
+
+.login-form input {
+    /* padding-bottom: 1.2rem; */
+    font-size: 1.2rem;
+    border-radius: 2px;
+    background-color: lightgrey;
+    border: none;
+    border-bottom: 3px solid black;
+    display: block;
+    transition: all 0.3s;
+}
+
+.login-form input:hover {
+    /* padding-bottom: 1.2rem; */
+    font-size: 1.2rem;
+    border-radius: 2px;
+    background-color: lightgrey;
+    border: none;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: block;
+}
+
+.login-form input:focus {
+    /* padding-bottom: 1.2rem; */
+    font-size: 1.2rem;
+    border-radius: 2px;
+    background-color: lightgrey;
+    border: none;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: block;
+}
+
+.login-form select {
+    /* padding-bottom: 1.2rem; */
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    background-color: lightgrey;
+    border: none;
+    border-bottom: 3px solid black;
+    display: block;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.login-form select:hover {
+    /* padding-bottom: 1.2rem; */
+    font-size: 1.2rem;
+    border-radius: 2px;
+    background-color: lightgrey;
+    border: none;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: block;
+}
+
+.login-form select:focus {
+    /* padding-bottom: 1.2rem; */
+    font-size: 1.2rem;
+    border-radius: 2px;
+    background-color: lightgrey;
+    border: none;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: block;
+}
+
+.btn {
+    background-color: black;
+    color: red;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    border: none;
+    background-color: red;
+    color: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1.5);
+}
+
+.centered-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
