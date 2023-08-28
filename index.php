@@ -26,14 +26,8 @@
                     <img src="images/logicalis-logo-white_1.png" alt="Logicalis_Logo"> 
                 </div>
                 <div class="links-wrapper">
+		<img src="images/logo-white.png" alt="ataglance" style="width: 200px; margin-top: -20px;">
                     <!-- Nav Link -->
-<!--                    <div class="nav-link">
-                        <a href="logout.php">Logout</a>
-                    </div> -->
-                    <!-- Nav Link -->
-                    <div class="nav-link">
-                        <a href="reset-password.php">Reset Password</a>
-                    </div>
                 </div>
     </div>
 </div>
@@ -62,9 +56,6 @@
 
 <!-- <div class="footer"></div> -->
 <footer>
-<div class="col-sm-12" style="background-color: light-grey; height: 120px;">
-    <img src="images/ataglance-black.png">
-</div>
 <?php
 ob_flush();
 ?>
