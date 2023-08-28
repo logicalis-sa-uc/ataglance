@@ -7,14 +7,14 @@ if ($httpdOut > 0) {
 } else {
   $httpdRunning = "Stopped...";
 }
-$amportalCommand = "ls -l /usr/sbin/ | grep amportal | wc -l";
+$amportalCommand = "cat /var/www/html/ataglance/info/amportal.info";
 $amportalOut = shell_exec($amportalCommand);
 if ($amportalOut > 0) {
   $amportalRunning = "Installed";
 } else {
   $amportalRunning = "Not isntalled";
 }
-$fwconsoleCommand = "ll /usr/local/sbin/fwconsole | wc -l";
+$fwconsoleCommand = "cat /var/www/html/ataglance/info/fwconsole.info";
 $fwconsoleOut = shell_exec($fwconsoleCommand);
 if ($fwconsoleOut > 0) {
   $fwconsoleRunning = "Installed";
