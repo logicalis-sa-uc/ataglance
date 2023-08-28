@@ -1,0 +1,62 @@
+.col-sm-12 > .section1-header {
+    font-size: 0.8em;
+}
+
+.col-sm-12 > .section1-content .workshop-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col-sm-12 > .section1-content .workshop-forms a {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    width: 350px;
+    height: 30px;
+    color: #a4aaaf;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: center;
+}
+
+.col-sm-12 > .section1-content .workshop-forms a:hover {
+    color: #c6a476;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.col-sm-12 > .section2-history .history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-sm-12 > .section2-history .history a {    
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    width: 220px;
+    height: 50px;
+    color: #a4aaaf;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: center;
+}
+
+.col-sm-12 > .section2-history .history a:hover {
+    color: #c6a476;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,106 @@
+.forms-page {
+    display: flex;
+    border-radius: 20px;
+    background-color: #a4aaaf;
+    color: black;
+    border: none;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 1.2em;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.forms-page p {
+    background-color: black;
+    color: #a4aaaf;
+    padding: 3px;
+    border-radius:5px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+} 
+
+.forms label {
+    font-weight: 700;
+}
+
+.forms input {
+    width: 250px;
+    border: solid 2px black;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #c6a476;
+    color: black;
+    /* border: none; */
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.forms textarea {
+    margin-top: 20px;
+    width: 250px;
+    height: 150px;
+    border-radius: 3px;
+    background-color: #c6a476;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: inherit;
+    /* padding: 1.5rem 2rem; */
+    transition: all 0.3s;
+}
+
+.forms canvas {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #c6a476;
+}
+
+
+
+.forms select {
+    width: 250px;
+    font-size: 1.2rem;
+    background-color: #c6a476;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+input::file-selector-button {
+    border: none;
+    background-color: #a4aaaf;
+    color: black;
+}
+
+.forms-btn {
+    background-color: black;
+    color: #c6a476;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.forms-btn:hover {
+    color: #a4aaaf;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.w3-panel button {
+    display: inline-block;
+}

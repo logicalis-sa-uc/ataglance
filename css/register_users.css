@@ -1,0 +1,139 @@
+.department_select {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+.department_select > .department_seclection_workshop {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #5e676e;
+    color: black;
+    width: 200px;
+    border-radius: 10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.h2 {
+    text-align: center;
+    color: black;
+}
+
+.department_select > .department_seclection_workshop a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.0em;
+    font-weight: 700;
+}
+
+.department_select > .department_seclection_workshop a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+
+.department_select > .department_seclection_workshop:hover {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: #a4aaaf;
+    color: black;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.department_select > .department_seclection_hr {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: #5e676e;
+    color: black;
+    width: 200px;
+    border-radius: 10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.department_select > .department_seclection_hr a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.0em;
+    font-weight: 700;
+}
+
+.department_select > .department_seclection_hr a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.department_select > .department_seclection_hr:hover {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: #a4aaaf;
+    color: black;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.department_select > .department_seclection_management {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #5e676e;
+    color: black;
+    width: 200px;
+    border-radius: 10px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.department_select > .department_seclection_management a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.0em;
+    font-weight: 700;
+}
+
+.department_select > .department_seclection_management a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.department_select > .department_seclection_management:hover {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: #a4aaaf;
+    color: black;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}

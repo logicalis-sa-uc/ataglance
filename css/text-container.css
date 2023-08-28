@@ -1,0 +1,43 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container h2{
+    background-color: red;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
+    /* border-bottom: 3px solid black;
+ *     border-right: 3px solid black;
+ *         border-left: 3px solid black;
+ *             border-top: 3px solid black;  */
+}
+
+.main-container p{
+    /* background-color: red; */
+    color: black;
+    border: none;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
+    /* border-bottom: 3px solid black;
+ *     border-right: 3px solid black;
+ *         border-left: 3px solid black;
+ *             border-top: 3px solid black;  */
+    padding: 50px;
+}
+
+.main-container a{
+    text-decoration: none;
+    color: red;
+}
+
+.main-container a:hover {
+    color: black;
+}

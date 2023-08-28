@@ -1,0 +1,76 @@
+.skewed-header {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+
+.skewed-header > .header-bg {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(0deg);
+    transform-origin: top left;
+    filter: brightness(75%);
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .logo-wrapper {
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius:  2px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+    color: black;
+    width: 150px;
+    padding: 20px;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+}
+
+.links-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.links-wrapper > .nav-link a:hover {
+    text-decoration: none;
+    color: red;
+}
