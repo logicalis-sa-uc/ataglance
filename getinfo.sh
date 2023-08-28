@@ -56,3 +56,9 @@ ps -ef | grep kamailio | wc -l > /var/www/html/ataglance/info/kamailio.info
 /usr/sbin/asterisk -rx 'queue show' | grep 'Unavailable' | wc -l > /var/www/html/ataglance/info/offlinequeues.info
 # Long Calls
 /usr/sbin/asterisk -rx "core show channels verbose" | awk '$8 ~ /01:..:../ || $9 ~ /01:..:../ || $10 ~ /01:..:../' | wc -l > /var/www/html/ataglance/info/longcalls.info
+# FWConsole
+fwconsole_path="/usr/local/sbin/"
+ls "$fwconsole_path" | grep fwconsole | wc -l > /var/www/html/ataglance/info/fwconsole.info
+# AMPORTAL
+amportal_path="/usr/local/sbin/"
+ls "$amportal_path" | grep amportal | wc -l > /var/www/html/ataglance/info/amportal.info
