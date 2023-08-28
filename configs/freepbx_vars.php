@@ -14,7 +14,7 @@ if ($amportalOut > 0) {
 } else {
   $amportalRunning = "Not isntalled";
 }
-$fwconsoleCommand = "ls -l /usr/sbin/ | grep fwconsole | wc -l";
+$fwconsoleCommand = "ll /usr/local/sbin/fwconsole | wc -l";
 $fwconsoleOut = shell_exec($fwconsoleCommand);
 if ($fwconsoleOut > 0) {
   $fwconsoleRunning = "Installed";
