@@ -14,6 +14,17 @@ sudo apt-get install mysql-server
 # Log in to MySQL as root (you may need to provide the root password)
 sudo mysql -h$db_ip -u$db_username -p$db_password <<MYSQL_SCRIPT
 CREATE DATABASE ataglance;
+CREATE TABLE \`lsa_users`\ (
+  \`id\` int(11) NOT NULL AUTO_INCREMENT,
+  \`userName\` varchar(250) NOT NULL,
+  \`userPassword\` varchar(250) NOT NULL,
+  \`email\` varchar(250) NOT NULL,
+  \`creationDate\` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  \`DepartmentAccess\` varchar(250) DEFAULT NULL,
+  \`DisplayMode\` tinyint(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+
 CREATE TABLE \`asterisk_info\` (
   \`id\` int(11) NOT NULL AUTO_INCREMENT,
   \`timestamp\` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
